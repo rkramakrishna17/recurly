@@ -1,12 +1,26 @@
+# Temp files and IDE files
+*.*#
+.idea
+*.iml
+*.ipr
+*.iws
+# Compiled files
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
+target
+# Dir for stuff i don't want to commit
+utils/
 # Package Files #
 *.jar
 *.war
 *.ear
+*.*~
+pom.xml.releaseBackup
+release.properties
+test-output/*
+.settings/*
+.project
+.classpath
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.DS_Store
+
+src/main/resources/com/ning/billing/recurly/git.properties
